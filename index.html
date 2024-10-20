@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Opción Múltiple</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="cuadro">
+        <form id="opciones">
+            <label for="operadores">¿Cuáles son los operadores de comparación?</label><br><br>
+            <label>Elija las opciones correctas:</label><br><br>
+            <input type="checkbox" name="operador" value="Mayor que"> > Mayor que <br><br>
+            <input type="checkbox" name="operador" value="Menor que"> < Menor que <br><br>
+            <input type="checkbox" name="operador" value="Suma"> + Suma<br><br>
+            <input type="checkbox" name="operador" value="Mayor o igual que"> >= Mayor o igual que<br><br>
+            <input type="checkbox" name="operador" value="Resta"> - Resta<br><br>
+            <input type="checkbox" name="operador" value="Menor o igual que"> <= Menor o igual que<br><br>
+            <input type="checkbox" name="operador" value="Igual"> == Igual<br><br>
+            <input type="checkbox" name="operador" value="Multiplicación"> * Multiplicación <br><br>
+            <input type="checkbox" name="operador" value="Diferente"> != Diferente<br><br>
+            <input type="submit" value="Enviar">
+        </form>
+        <div id="resultado"></div>
+        <h3>Resultados Históricos:</h3>
+        <ul id="historial"></ul>
+    </div>     
+</body>
+</html>
